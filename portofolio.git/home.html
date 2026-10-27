@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Aiman, calon software engineer yang sedang belajar membangun aplikasi web dengan Python, HTML, dan CSS.">
+    <title>Aiman | Calon Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navigasi utama">
+            <a class="name" href="home.html">Aiman<span>.dev</span></a>
+            <div class="nav-actions">
+                <ul class="ul-navbar">
+                    <li><a href="home.html" aria-current="page">Beranda</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <button class="theme-toggle" id="switchmode" type="button" aria-label="Aktifkan tema terang" title="Ganti tema">
+                    <span aria-hidden="true">☼</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero page-width" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Sedang belajar dan membangun</p>
+                <h1 id="hero-title">Halo, saya Aiman.<br>Saya ingin membangun <span class="text-accent">web yang bermanfaat.</span></h1>
+                <p class="hero-description">
+                    Saya sedang menapaki perjalanan menjadi software engineer, dimulai dari HTML, CSS, dan Python. Saya suka belajar dengan membuat proyek nyata dan memperbaikinya sedikit demi sedikit.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Lihat proyek saya <span aria-hidden="true">↓</span></a>
+                    <a class="button button-secondary" href="#contact">Hubungi saya</a>
+                </div>
+                <ul class="skill-list" aria-label="Teknologi yang sedang dipelajari">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="hero-image-wrap">
+                <img class="hero-image" src="pfp.jpg" alt="Foto profil Aiman">
+                <div class="image-caption"><span class="status-dot" aria-hidden="true"></span> Terbuka untuk kesempatan belajar</div>
+            </div>
+        </section>
+
+        <section class="projects page-width" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Dari proses belajar</p>
+                    <h2 id="projects-title">Proyek pilihan</h2>
+                </div>
+                <p class="section-intro">Saya membangun proyek untuk mengubah hal yang dipelajari menjadi sesuatu yang bisa digunakan dan ditunjukkan.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">01</span><span class="project-status">Sedang dikembangkan</span></div>
+                    <h3>Website Portofolio</h3>
+                    <p>Website ini adalah tempat saya memperkenalkan diri, merangkum proyek, dan terus melatih dasar pengembangan web.</p>
+                    <ul class="project-tags" aria-label="Teknologi proyek">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">02</span><span class="project-status">Dalam proses</span></div>
+                    <h3>Proyek Berbasis Data</h3>
+                    <p>Saya juga sedang mengerjakan proyek kecil berbasis data. Detail dan hasilnya akan saya tambahkan setelah proyek ini lebih siap untuk dibagikan.</p>
+                    <ul class="project-tags" aria-label="Teknologi proyek">
+                        <li>Python</li>
+                        <li>Data</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact page-width" id="contact" aria-labelledby="contact-title">
+            <p class="eyebrow">Mari terhubung</p>
+            <h2 id="contact-title">Punya ide atau ingin berdiskusi?</h2>
+            <p class="contact-description">Kirim email ke aimanmunady70@gmail.com dan saya akan senang mendengar dari Anda.</p>
+            <a class="button button-primary" href="mailto:aimanmunady70@gmail.com?subject=Halo%2C%20Aiman">
+                Hubungi lewat email <span aria-hidden="true">↗</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer page-width">
+        <p>© <span id="current-year"></span> Aiman. Dibangun sambil terus belajar.</p>
+        <a href="#contact">Mari terhubung <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
